@@ -4,10 +4,10 @@ public class Animal {
     private static final Double DEFAULT_DOG_WEIGHT = 3.0;
     private static final Double DEFAULT_CAT_WEIGHT = 1.0;
     private static final Double DEFAULT_ANIMAL_WEIGHT = 2.0;
-    String species;
+    final String species;
     String name;
     Integer age;
-    Double weight;
+    private Double weight;
     private Boolean alive;
 
     Animal(String species, String name){
