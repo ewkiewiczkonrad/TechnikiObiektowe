@@ -18,4 +18,13 @@ public class Animal {
             this.weight = 1.0;
         }
     }
+
+    public Double getWeight(){
+        return  this.weight;
+    }
+
+    public void feed(){
+        this.weight += 0.1;
+        System.out.println("dzieki za jedzonko");
+    }
 }
